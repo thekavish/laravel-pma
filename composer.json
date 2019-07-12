@@ -1,13 +1,25 @@
 {
-    "name": "kavish/laravel-pma",
-    "description": "Unleash the powers of phpminiadmin in your Laravel projects.",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Kavish",
-            "email": "kavish619@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "thekavish/laravel-pma",
+  "description": "Unleash the powers of phpminiadmin in your Laravel projects.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kavish",
+      "email": "kavish619@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Thekavish\\Phpminiadmin\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Thekavish\\Phpminiadmin\\PhpminiadminServiceProvider"
+      ]
+    }
+  }
 }
