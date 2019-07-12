@@ -1,0 +1,13 @@
+{
+    "name": "kavish/laravel-pma",
+    "description": "Unleash the powers of phpminiadmin in your Laravel projects.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kavish",
+            "email": "kavish619@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
